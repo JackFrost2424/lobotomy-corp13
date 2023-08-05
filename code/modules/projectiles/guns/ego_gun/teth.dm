@@ -1,4 +1,4 @@
-//All teth Rifles should be around 22 DPS (31 per bullet
+//All teth Rifles should be around 22 DPS (31 per bullet)
 //All Teth Pistols should hit about
 
 //Does slightly less damage due to AOE.
@@ -147,3 +147,14 @@
 		H.adjustBruteLoss(3)
 	..()
 	return
+
+/obj/item/gun/ego_gun/patriot
+	name = "patriot"
+	desc = "Are you willing to do what it takes to protect your country?"
+	icon_state = "patriot"
+	inhand_icon_state = "patriot"
+	special = "This weapon fires 4 pellets."
+	ammo_type = /obj/item/ammo_casing/caseless/ego_patriot
+	weapon_weight = WEAPON_HEAVY
+	fire_delay = 25
+	fire_sound = 'sound/weapons/gun/shotgun/shot.ogg'

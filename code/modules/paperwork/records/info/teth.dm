@@ -278,3 +278,16 @@
 		"Taking cover is not advised, as it would expose the employee's back to the abnormality.",
 		"Refusing his offer exposed the agent to the rain's effects and angered the abnormality, lowering the Qliphoth Counter twice.",
 		"Upon attacking, Fairy-Long-Legs scrapped off the skin of the victim and inserted it inside their chest's cavity, healing themselves in the process.")
+
+//Red Blooded American
+/obj/item/paper/fluff/info/teth/redblooded
+	abno_type = /mob/living/simple_animal/hostile/abnormality/redblooded
+	abno_code = "C-01-163"
+	abno_info = list(
+		"When the work result was Normal, the Qliphoth Counter lowered with a normal probability.",
+		"When the work result was Bad, the Qliphoth Counter lowered.",
+		"When Repression Work was performed, the Qliphoth Counter increased.",
+		"Performing Repression work resulted in future works done on the abnormality doing more damage during works. Repeated repression works increase the extra damage taken.",
+		"When a non-repression work was done, the abnormality calmed down, lowering the extra damage taken.")
+	abno_breach_damage_type = "Red"
+	abno_breach_damage_count = "Moderate"

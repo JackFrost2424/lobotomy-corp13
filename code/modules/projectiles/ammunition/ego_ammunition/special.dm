@@ -37,3 +37,9 @@
 	name = "fullstop casing"
 	desc = "A casing."
 	projectile_type = /obj/projectile/ego_bullet/fullstop
+
+/obj/item/ammo_casing/caseless/true_patriot
+	name = "true patriot casing"
+	desc = "a true patriot casing"
+	projectile_type = /obj/projectile/true_patriot
+	pellets = 6
