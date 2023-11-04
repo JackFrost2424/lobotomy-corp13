@@ -6,8 +6,8 @@
 	icon_living = "american_idle"
 	var/icon_furious = "american_idle_injured"
 	del_on_death = TRUE
-	maxHealth = 775
-	health = 775
+	maxHealth = 825
+	health = 825
 	rapid_melee = 1
 	melee_queue_distance = 2
 	move_to_delay = 4
@@ -21,13 +21,13 @@
 	casingtype = /obj/item/ammo_casing/caseless/true_patriot
 	projectilesound = 'sound/weapons/gun/shotgun/shot.ogg'
 	damage_coeff = list(BRUTE = 1, RED_DAMAGE = 0.8, WHITE_DAMAGE = 1.5, BLACK_DAMAGE = 1, PALE_DAMAGE = 2)
-	melee_damage_lower = 10
-	melee_damage_upper = 15
+	melee_damage_lower = 12
+	melee_damage_upper = 16
 	faction = list("hostile")
 	speak_emote = list("snarls")
 	can_breach = TRUE
 	threat_level = TETH_LEVEL
-	start_qliphoth = 3
+	start_qliphoth = 2
 	work_chances = list(
 						ABNORMALITY_WORK_INSTINCT = 45,
 						ABNORMALITY_WORK_INSIGHT = 30,
